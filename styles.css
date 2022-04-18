@@ -639,6 +639,10 @@ a, button {
 
 /* Remove list styles (bullets/numbers) */
 /* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
 /* removes spacing between cells in tables */
 table {
   border-collapse: collapse;
