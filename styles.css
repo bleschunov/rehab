@@ -1,0 +1,889 @@
+:export {
+  telegramGradient: #27A8EA;
+  vkColor: #2789F6;
+  success500: #12B76A;
+  error500: #F04438;
+  gray500: #667085;
+}
+
+.text {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+}
+
+.display-2xl-regular {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 400;
+}
+
+.display-2xl-regular-underline {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 400;
+}
+
+.display-2xl-medium {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 500;
+}
+
+.display-2xl-medium-underline {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 500;
+}
+
+.display-2xl-semibold {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 600;
+}
+
+.display-2xl-semibold-underline {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 600;
+}
+
+.display-2xl-bold {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 700;
+}
+
+.display-2xl-bold-underline {
+  font-size: rem(72px);
+  line-height: rem(90px);
+  font-weight: 700;
+}
+
+.display-xl-regular {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 400;
+}
+
+.display-xl-regular-underline {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 400;
+}
+
+.display-xl-medium {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 500;
+}
+
+.display-xl-medium-underline {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 500;
+}
+
+.display-xl-semibold {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 600;
+}
+
+.display-xl-semibold-underline {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 600;
+}
+
+.display-xl-bold {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 700;
+}
+
+.display-xl-bold-underline {
+  font-size: rem(60px);
+  line-height: rem(72px);
+  font-weight: 700;
+}
+
+.display-lg-regular {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 400;
+}
+
+.display-lg-regular-underline {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 400;
+}
+
+.display-lg-medium {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 500;
+}
+
+.display-lg-medium-underline {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 500;
+}
+
+.display-lg-semibold {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 600;
+}
+
+.display-lg-semibold-underline {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 600;
+}
+
+.display-lg-bold {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 700;
+}
+
+.display-lg-bold-underline {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 700;
+}
+
+.display-md-regular {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 400;
+}
+
+.display-md-regular-underline {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 400;
+}
+
+.display-md-medium {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 500;
+}
+
+.display-md-medium-underline {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 500;
+}
+
+.display-md-semibold {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 600;
+}
+
+.display-md-semibold-underline {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 600;
+}
+
+.display-md-bold {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 700;
+}
+
+.display-md-bold-underline {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 700;
+}
+
+.display-sm-regular {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 400;
+}
+
+.display-sm-regular-underline {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 400;
+}
+
+.display-sm-medium {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 500;
+}
+
+.display-sm-medium-underline {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 500;
+}
+
+.display-sm-semibold {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 600;
+}
+
+.display-sm-semibold-underline {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 600;
+}
+
+.display-sm-bold {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 700;
+}
+
+.display-sm-bold-underline {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 700;
+}
+
+.display-xs-regular {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 400;
+}
+
+.display-xs-regular-underline {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 400;
+}
+
+.display-xs-medium {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 500;
+}
+
+.display-xs-medium-underline {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 500;
+}
+
+.display-xs-semibold {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 600;
+}
+
+.display-xs-semibold-underline {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 600;
+}
+
+.display-xs-bold {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 700;
+}
+
+.display-xs-bold-underline {
+  font-size: rem(24px);
+  line-height: rem(32px);
+  font-weight: 700;
+}
+
+.text-xl-regular {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 400;
+}
+
+.text-xl-regular-underline {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 400;
+}
+
+.text-xl-medium {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 500;
+}
+
+.text-xl-medium-underline {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 500;
+}
+
+.text-xl-semibold {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 600;
+}
+
+.text-xl-semibold-underline {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 600;
+}
+
+.text-xl-bold {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 700;
+}
+
+.text-xl-bold-underline {
+  font-size: rem(20px);
+  line-height: rem(30px);
+  font-weight: 700;
+}
+
+.text-lg-regular {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 400;
+}
+
+.text-lg-regular-underline {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 400;
+}
+
+.text-lg-medium {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 500;
+}
+
+.text-lg-medium-underline {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 500;
+}
+
+.text-lg-semibold {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 600;
+}
+
+.text-lg-semibold-underline {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 600;
+}
+
+.text-lg-bold {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 700;
+}
+
+.text-lg-bold-underline {
+  font-size: rem(18px);
+  line-height: rem(28px);
+  font-weight: 700;
+}
+
+.text-md-regular {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 400;
+}
+
+.text-md-regular-underline {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 400;
+}
+
+.text-md-medium {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 500;
+}
+
+.text-md-medium-underline {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 500;
+}
+
+.text-md-semibold {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 600;
+}
+
+.text-md-semibold-underline {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 600;
+}
+
+.text-md-bold {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 700;
+}
+
+.text-md-bold-underline {
+  font-size: rem(16px);
+  line-height: rem(24px);
+  font-weight: 700;
+}
+
+.text-sm-regular {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+}
+
+.text-sm-regular-underline {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 400;
+}
+
+.text-sm-medium {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 500;
+}
+
+.text-sm-medium-underline {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 500;
+}
+
+.text-sm-semibold {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 600;
+}
+
+.text-sm-semibold-underline {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 600;
+}
+
+.text-sm-bold {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 700;
+}
+
+.text-sm-bold-underline {
+  font-size: rem(14px);
+  line-height: rem(20px);
+  font-weight: 700;
+}
+
+.text-xs-regular {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 400;
+}
+
+.text-xs-regular-underline {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 400;
+}
+
+.text-xs-medium {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 500;
+}
+
+.text-xs-medium-underline {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 500;
+}
+
+.text-xs-semibold {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 600;
+}
+
+.text-xs-semibold-underline {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 600;
+}
+
+.text-xs-bold {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 700;
+}
+
+.text-xs-bold-underline {
+  font-size: rem(12px);
+  line-height: rem(18px);
+  font-weight: 700;
+}
+
+:export {
+  telegramGradient: #27A8EA;
+  vkColor: #2789F6;
+  success500: #12B76A;
+  error500: #F04438;
+  gray500: #667085;
+}
+
+.shadow-shadow-xs {
+  box-shadow: 0 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+.shadow-shadow-sm {
+  box-shadow: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06);
+}
+
+.shadow-shadow-md {
+  box-shadow: 0 4px 8px -2px rgba(16, 24, 40, 0.1), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+
+.shadow-shadow-lg {
+  box-shadow: 0 12px 16px -4px rgba(16, 24, 40, 0.08), 0 4px 6px -2px rgba(16, 24, 40, 0.03);
+}
+
+.shadow-shadow-xl {
+  box-shadow: 0 20px 24px -4px rgba(16, 24, 40, 0.08), 0 8px 8px -4px rgba(16, 24, 40, 0.03);
+}
+
+.shadow-shadow-2xl {
+  box-shadow: 0 24px 48px -12px rgba(16, 24, 40, 0.18);
+}
+
+.shadow-shadow-3xl {
+  box-shadow: 0 32px 64px -12px rgba(16, 24, 40, 0.14);
+}
+
+.shadow-focusedShadow-xs-primary {
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 4px #FFE4E8;
+}
+
+.shadow-focusedShadow-xs-gray {
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 4px #F2F4F7;
+}
+
+.shadow-focusedShadwo-xs-error {
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05), 0 0 0 4px #FEE4E2;
+}
+
+.shadow-focusedShadow-sm-primary {
+  box-shadow: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06), 0 0 0 4px #F4EBFF;
+}
+
+.shadow-focudedShadow-sm-gray {
+  box-shadow: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06), 0 0 0 4px #F2F4F7;
+}
+
+:export {
+  telegramGradient: #27A8EA;
+  vkColor: #2789F6;
+  success500: #12B76A;
+  error500: #F04438;
+  gray500: #667085;
+}
+
+:export {
+  telegramGradient: #27A8EA;
+  vkColor: #2789F6;
+  success500: #12B76A;
+  error500: #F04438;
+  gray500: #667085;
+}
+
+/***
+    The new CSS reset - version 1.5.1 (last updated 1.3.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+*/
+*:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a, button {
+  cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+  color: unset;
+}
+
+/* fix the feature of 'hidden' attribute.
+   display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+   - fix for the content editable attribute will work properly. */
+:where([contenteditable]) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  background-color: #F0F5F6;
+}
+@media screen and (max-width: 690px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+h2 {
+  font-size: rem(48px);
+  line-height: rem(60px);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 600;
+}
+
+h4 {
+  font-size: rem(30px);
+  line-height: rem(38px);
+  font-weight: 600;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+.header {
+  background-color: white;
+  padding: 1rem 0.75rem;
+}
+.header__flex {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__bold {
+  font-weight: 600;
+}
+.header__right {
+  display: flex;
+  gap: 2rem;
+  row-gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.banner {
+  background-color: #2266A1;
+  padding: 1rem 0.75rem;
+  font-size: rem(36px);
+  line-height: rem(44px);
+  font-weight: 600;
+}
+.banner__text {
+  color: #FFFFFF;
+  text-align: center;
+}
+@media screen and (max-width: 690px) {
+  .banner__text {
+    font-size: rem(30px);
+    line-height: rem(38px);
+    font-weight: 600;
+  }
+}
+
+.section {
+  padding: 0 0.75rem;
+}
+.section__flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 3rem 0;
+}
+.section__quote {
+  border-left: 1px solid #2266A1;
+  padding-left: 1.5rem;
+}
+.section__imgGroup {
+  display: flex;
+  gap: 2rem;
+}
+.section__img {
+  height: 100%;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.callback {
+  background-color: #2266A1;
+  object-fit: contain;
+  height: 200px;
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+}
+.callback__info {
+  font-size: 12px;
+  color: #D0D5DD;
+  max-width: 40%;
+}
+.callback__flex {
+  display: flex;
+}
+.callback__right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.callback__hgroup {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.callback__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+.callback__form a {
+  text-decoration: underline;
+}
+.callback__input {
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  height: 3.25rem;
+  box-shadow: 0 2px 0 rgba(16, 24, 40, 0.05);
+}
+.callback__input::placeholder {
+  color: #98A2B3;
+}
+
+.footer {
+  background-color: white;
+  padding: 1rem 0.75rem;
+}
+.footer__flex {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 690px) {
+  .footer__flex {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.button {
+  box-shadow: 0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06);
+  background-color: #FD6F8E;
+  padding: 1rem;
+  height: 3.25rem;
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 690px) {
+  .desconly {
+    display: none;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+table td, table th {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+th {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=styles.css.map */

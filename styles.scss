@@ -1,0 +1,221 @@
+@import './styles/fonts.scss';
+@import './styles/shadows.scss';
+@import './styles/vars.scss';
+@import './styles/units.scss';
+@import './styles/normalize.scss';
+
+$bg: #F0F5F6;
+$secondary: #2266A1;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: $bg;
+
+    @media screen and (max-width: $bp) {
+        font-size: 16px;
+    }
+}
+
+h2 {
+
+
+    @include getFontStyles('display-lg', 'semibold')
+}
+
+h3 {
+    @include getFontStyles('display-md', 'semibold')
+}
+
+h4 {
+    @include getFontStyles('display-sm', 'semibold')
+} 
+
+ul {
+    margin-left: rem(32px);
+}
+
+.header {
+    background-color: white;
+    padding: rem(16px) rem(12px);
+
+    &__flex {
+        display: flex;
+        gap: rem(48px);
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__bold {
+        font-weight: 600;
+    }
+
+    &__right {
+        display: flex;
+        gap: rem(32px);
+        row-gap: rem(12px);
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+
+.banner {
+    background-color: $secondary;
+    padding: rem(16px) rem(12px);
+    @include getFontStyles('display-md', 'semibold');
+
+    &__text {
+        
+        color: $white;
+        text-align: center;
+
+        @media screen and (max-width: $bp) {
+            @include getFontStyles('display-sm', 'semibold')
+        }
+    }
+}
+
+.section {
+    padding: 0 rem(12px);
+
+    &__flex {
+        display: flex;
+        flex-direction: column;
+        gap: rem(40px);
+    
+        margin: rem(48px) 0;
+    }
+
+    &__quote {
+        border-left: 1px solid $secondary;
+        padding-left: rem(24px);
+    }
+
+    &__imgGroup {
+        display: flex;
+        gap: rem(32px);
+    }
+
+    &__img {
+        height: 100%;
+    }
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.callback {
+    background-color: $secondary;
+    object-fit: contain;
+    height: 200px;
+    width: 100%;
+    height: 100%;
+    padding-top: rem(48px);
+
+    &__info {
+        font-size: 12px;
+        color: $gray300;
+        max-width: 40%;
+    }
+
+    &__flex {
+        display: flex;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        gap: rem(32px);
+    }
+
+    &__hgroup {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        gap: rem(8px);
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: rem(16px);
+        flex-wrap: wrap;
+        margin-bottom: rem(48px);
+
+        & a {
+            text-decoration: underline;
+        }
+    }
+
+    &__input {
+        background-color: $white;
+        color: black;
+        border-radius: rem(16px);
+        padding: 0 rem(16px);
+        height: rem(52px);
+        @include getShadow('shadow-xs');
+
+        &::placeholder {
+            color: $gray400;
+        }
+    }
+
+}
+
+.footer {
+    background-color: white;
+    padding: rem(16px) rem(12px);
+    
+    &__flex {
+        display: flex;
+        gap: rem(48px);
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: $bp) {
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+}
+
+.container {
+    max-width: rem(960px);
+    margin: 0 auto;
+}
+
+.button {
+    @include getShadow('shadow-sm');
+    background-color: $rose400;
+    padding: rem(16px);
+    height: rem(52px);
+    border-radius: rem(16px);
+    color: $white;
+}
+
+.desconly {
+    @media screen and (max-width: $bp) {
+        display: none;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+table td, table th {
+    border: 1px solid black;
+    // border-radius: rem(8px);
+}
+
+th, td {
+    padding: rem(8px);
+}
+
+th {
+    font-weight: 600;
+}
+
