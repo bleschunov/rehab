@@ -718,6 +718,9 @@ ul {
 }
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   background-color: white;
   padding: 1rem 0.75rem;
 }
@@ -774,9 +777,6 @@ ul {
 .section__imgGroup {
   display: flex;
   gap: 2rem;
-}
-.section__img {
-  height: 100%;
 }
 
 .text {

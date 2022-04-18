@@ -36,6 +36,9 @@ ul {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background-color: white;
     padding: rem(16px) rem(12px);
 
@@ -95,10 +98,6 @@ ul {
     &__imgGroup {
         display: flex;
         gap: rem(32px);
-    }
-
-    &__img {
-        height: 100%;
     }
 }
 
